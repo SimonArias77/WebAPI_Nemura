@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAPI_nemura")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b66cb2b8e7624f8f3ef019f44f505d8606954795")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c65ad0abb754742c4bf335b00e3a0483d0ee53d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAPI_nemura")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAPI_nemura")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
