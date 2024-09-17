@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/riwip5-006/WebAPI_Nemura/WebAPI_nemura.csproj": {}
+    "/home/riwip5-006/C#/WebAPI_Nemura/WebAPI_nemura.csproj": {}
   },
   "projects": {
-    "/home/riwip5-006/WebAPI_Nemura/WebAPI_nemura.csproj": {
+    "/home/riwip5-006/C#/WebAPI_Nemura/WebAPI_nemura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/riwip5-006/WebAPI_Nemura/WebAPI_nemura.csproj",
+        "projectUniqueName": "/home/riwip5-006/C#/WebAPI_Nemura/WebAPI_nemura.csproj",
         "projectName": "WebAPI_nemura",
-        "projectPath": "/home/riwip5-006/WebAPI_Nemura/WebAPI_nemura.csproj",
+        "projectPath": "/home/riwip5-006/C#/WebAPI_Nemura/WebAPI_nemura.csproj",
         "packagesPath": "/home/riwip5-006/.nuget/packages/",
-        "outputPath": "/home/riwip5-006/WebAPI_Nemura/obj/",
+        "outputPath": "/home/riwip5-006/C#/WebAPI_Nemura/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/riwip5-006/.nuget/NuGet/NuGet.Config"

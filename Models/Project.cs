@@ -26,7 +26,7 @@ public class Project
     [MaxLength(255, ErrorMessage = "The project name can't be longer than {1} characters.")]
     // Data Annotation para indicar que esta propiedad debe tener una longitud mínima de 255 caracteres.
     [MinLength(4, ErrorMessage = "The project name can't be shorter than {1} characters.")]
-    public string Name { get; set; }
+    public string? Name { get; set; }
 
     // Data Annotation para cambiar el nombre de la columna en la base de datos.
     [Column("user_id")]
@@ -35,5 +35,5 @@ public class Project
     // Data Annotation para hacer referencia a una foreignkey. Va a estar relacionado con la propiedad de UserId.
     [ForeignKey("UserId")]
     // Enlaces foraneos
-    public User User { get; set; }
+    public User? User { get; set; }
 }

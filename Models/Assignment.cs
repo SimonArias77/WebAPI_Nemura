@@ -4,6 +4,8 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
+using WebAPI_Nemura.Enums;
+using WebAPI_Nemura.Models;
 
 namespace WebAPI_Nemura.Models;
 
@@ -23,7 +25,7 @@ public class Assignment
     // Data Annotation para cambiar el nombre de la columna en la base de datos.
     [Column("name")]
     [MaxLength(255, ErrorMessage = "The name can't be longer than {1} characters.")]
-    public string Name { get; set; }
+    public string? Name { get; set; }
 
     // Data Annotation para cambiar el nombre de la columna en la base de datos.
     [Column("description")]
@@ -46,5 +48,5 @@ public class Assignment
 
     // Enlaces foraneos
     [ForeignKey("ProjectId")]
-    public Project Project { get; set; }
+    public Project? Project { get; set; }
 }
